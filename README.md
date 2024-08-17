@@ -1,7 +1,7 @@
 # Sql2
 
-Problem 1 : Rank Scores		<BR>
-(https://leetcode.com/problems/rank-scores/ )
+## Problem 1 : Rank Scores(https://leetcode.com/problems/rank-scores/ )
+<br>
 SELECT 
 s.score, COUNT(DISTINCT t.score) AS 'rank' 
 FROM scores s INNER JOIN scores t ON s.score <=t.score 
